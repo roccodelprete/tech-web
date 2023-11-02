@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div class="calculator container">
+      <input type="text" class="calculator-input" id="display" />
+      <div class="calculator-design">
+        <button class="calculator-button" data-action="clear">AC</button>
+        <button class="calculator-button" data-action="positiveOrNegative">
+          +/-
+        </button>
+        <button class="calculator-button" data-action="percentage">%</button>
+        <button class="calculator-button" data-action="divide">÷</button>
+
+        <button class="calculator-button">7</button>
+        <button class="calculator-button">8</button>
+        <button class="calculator-button">9</button>
+        <button class="calculator-button" data-action="multiply">
+          &times;
+        </button>
+
+        <button class="calculator-button">4</button>
+        <button class="calculator-button">5</button>
+        <button class="calculator-button">6</button>
+        <button class="calculator-button" data-action="subtract">-</button>
+
+        <button class="calculator-button">1</button>
+        <button class="calculator-button">2</button>
+        <button class="calculator-button">3</button>
+        <button class="calculator-button" data-action="add">+</button>
+
+        <button class="calculator-button" style="grid-column: span 2">0</button>
+        <button class="calculator-button" data-action="point">,</button>
+        <button class="calculator-button" data-action="equal">=</button>
+      </div>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
